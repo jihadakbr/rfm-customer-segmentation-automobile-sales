@@ -3,6 +3,7 @@ This dataset contains information about car sales transactions, including custom
 
 Dataset Source: [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-sales-data/data)
 
+---
 
 ## Table of Contents
 
@@ -26,6 +27,8 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-sales-data/
 11. [Conclusion](#conclusion)
 12. [License](#license)
 13. [Contact](#contact)
+
+---
 
 ## Dataset Overview
 
@@ -52,14 +55,19 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-sales-data/
 | **CONTACTFIRSTNAME**       | This column denotes the first name of the contact person associated with the customer.                          |
 | **DEALSIZE**               | It indicates the size of the deal or order, which are the categories "Small," "Medium," or "Large."             |
 
+---
 
 ## Project Overview
 
 Sales and customer engagement for an automobile company show fluctuating patterns, with significant peaks in November and December 2018 and 2019. These months are crucial for both sales and customer activity, but consistency remains a challenge. This project aims to address these challenges by performing an RFM (Recency, Frequency, Monetary) analysis on automobile sales data to segment customers and enhance marketing strategies.
 
+---
+
 ## Main Objective
 
 The goal of this project is to identify high-value clients by segmenting customers based on recency, frequency, and monetary values. Insights from this analysis will help improve customer retention, enhance marketing strategies, and boost overall sales.
+
+---
 
 ## Specific Objectives
 
@@ -69,6 +77,8 @@ The goal of this project is to identify high-value clients by segmenting custome
 4. **Deal Size Analysis**: Explore how deal size correlates with total sales.
 5. **Sales Trends**: Identify trends in sales and customer activity over time.
 
+---
+
 ## Data Understanding
 
 The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-sales-data/data), focuses on automobile sales, covering transactions from 2018 to 2020. It includes customer demographics, transaction details, and product information.
@@ -76,6 +86,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
 - **Transactions**: 2,747 transaction records.
 - **Columns**: 20 columns (includes order details, customer information, product categories).
 - **Products**: Motorcycles, classic cars, vintage cars, trucks & buses, trains, ships, and planes.
+
+---
 
 ## Data Preprocessing
 
@@ -93,6 +105,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
 7. **RFM Transformation**: Created 9 customer segments based on RFM analysis.
 8. **Exporting Data**: Saved cleaned data in CSV format for use in dashboards.
 
+---
+
 ## RFM Analysis & Results
 
 ### Customer Segmentation
@@ -100,6 +114,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
 - **9 Customer Segments**: From "Champions" to "At Risk", with detailed score intervals, descriptions, and actionable recommendations.
 
 ![rfm segmentation](https://raw.githubusercontent.com/jihadakbr/rfm-customer-segmentation-automobile-sales/refs/heads/main/img/rfm%20segmentation.png)
+
+---
 
 ### Key Insights
 
@@ -113,6 +129,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
 
    **Insight**: Moderate recency and frequency scores indicate opportunities for customer reactivation and engagement, especially for high-value customers.
 
+---
+
 ![sales and customer by segment](https://raw.githubusercontent.com/jihadakbr/rfm-customer-segmentation-automobile-sales/refs/heads/main/img/sales%20and%20customer%20by%20segment.png)
 
 2. **Top Customer Segments by Sales**:
@@ -120,6 +138,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
    - **At Risk**: Contribute 17.8% of sales ($1.74M), but need reactivation.
    - **Loyal Customers**: Contribute 17.3% of sales ($1.69M).
    - Other segments (e.g., Value Seekers, Casual Shoppers) contribute minimally.
+
+---
 
 ![sales by product and segment](https://raw.githubusercontent.com/jihadakbr/rfm-customer-segmentation-automobile-sales/refs/heads/main/img/sales%20by%20product%20and%20segment.png)
 
@@ -129,6 +149,8 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
    - **Trucks & Buses**: $1.11M in sales.
    - **Top-Performing Items**: Champions dominate all product categories.
 
+---
+
 ![relationship between deal size and average sales](https://raw.githubusercontent.com/jihadakbr/rfm-customer-segmentation-automobile-sales/refs/heads/main/img/relationship%20between%20deal%20size%20and%20average%20sales.png)
 
 4. **Deal Size Correlation**:
@@ -137,11 +159,15 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
    - **Medium Deals**: $4,397 on average.
    - **Small Deals**: $2,063 on average.
 
+---
+
 ![sales and customer trends](https://github.com/jihadakbr/rfm-customer-segmentation-automobile-sales/blob/main/img/sales%20and%20customer%20trends.png)
 
 5. **Sales & Customer Trends**:
    - **Sales Peaks**: November and December 2018-2019 show seasonal spikes.
    - **Customer Trends**: Strong engagement during these months, driven by specific events or campaigns.
+
+---
 
 ## Recommendations
 
@@ -150,11 +176,15 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/ddosad/auto-s
 3. **Encourage Larger Deals**: Offer volume discounts and bulk purchase incentives to increase the size of deals and total sales.
 4. **Capitalize on Seasonal Peaks**: Plan marketing campaigns around November and December to maximize sales during these high-activity periods.
 
+---
+
 ## Dashboard
 
 A dashboard has been created to allow stakeholders to monitor customer segments and track performance metrics over time.
 
 ![RFM Analysis Dashboard](https://raw.githubusercontent.com/jihadakbr/rfm-customer-segmentation-automobile-sales/refs/heads/main/img/RFM%20Analysis%20Dashboard.png)
+
+---
 
 ## Exploratory Data Analysis (EDA)
 
@@ -164,13 +194,19 @@ Performed using Jupyter Notebooks, including:
 - **Pairplot**: Visualized relationships between key variables.
 - **Correlation Matrix**: Analyzed correlations between product categories, sales, and customer attributes.
 
+---
+
 ## Conclusion
 
 This project provides valuable insights into customer behavior and sales trends, empowering marketing teams to make data-driven decisions to boost engagement, optimize retention, and drive revenue growth.
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 # Contact
 For questions or collaborations, feel free to reach out:
