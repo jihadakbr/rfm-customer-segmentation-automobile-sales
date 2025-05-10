@@ -204,7 +204,9 @@ This project provides valuable insights into customer behavior and sales trends,
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+
+![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)
 
 ---
 
